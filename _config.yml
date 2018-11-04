@@ -6,7 +6,6 @@
 title: Hexo
 subtitle:
 description:
-keywords:
 author: John Doe
 language:
 timezone:
@@ -77,5 +76,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+    type: git
+    repo: https://github.com/yourname/yourname.github.io.git
+    branch: master
+
