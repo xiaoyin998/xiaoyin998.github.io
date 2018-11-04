@@ -78,6 +78,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
     type: git
-    repo: https://github.com/yourname/yourname.github.io.git
+    repo: https://github.com/xiaoyin998/xiaoyin998.github.io.git
     branch: master
 
