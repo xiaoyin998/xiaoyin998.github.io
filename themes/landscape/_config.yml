@@ -1,4 +1,4 @@
-# Header
+header: ATAAE--清音
 menu:
   Home: /
   Archives: /archives
@@ -25,7 +25,7 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
 google_analytics:
@@ -34,3 +34,18 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+  <canvas id="live2dcanvas" width="200" height="400" class="live2d"></canvas>
+<%- live2d("live2dcanvas") %>
+<style>
+.live2d{
+  position: fixed;
+  bottom: -30px;
+  right: 0px;
+  z-index: 999;
+  width: 100px;
+  height: 200px;
+  pointer-events: none;
+}
+</style>
+
+
